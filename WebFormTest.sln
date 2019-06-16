@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm", "WebForm\WebForm.csproj", "{A81A96D6-E014-440A-8DA9-C6AF2B680224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm.Tests", "WebForm.Tests\WebForm.Tests.csproj", "{FE39C0AF-1AAE-4498-8061-87380FA91CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utitily", "Utitily\Utitily.csproj", "{3541054B-0060-447E-8B6D-BBCEE20C4E9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81A96D6-E014-440A-8DA9-C6AF2B680224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81A96D6-E014-440A-8DA9-C6AF2B680224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81A96D6-E014-440A-8DA9-C6AF2B680224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81A96D6-E014-440A-8DA9-C6AF2B680224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE39C0AF-1AAE-4498-8061-87380FA91CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE39C0AF-1AAE-4498-8061-87380FA91CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE39C0AF-1AAE-4498-8061-87380FA91CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE39C0AF-1AAE-4498-8061-87380FA91CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3541054B-0060-447E-8B6D-BBCEE20C4E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3541054B-0060-447E-8B6D-BBCEE20C4E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3541054B-0060-447E-8B6D-BBCEE20C4E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3541054B-0060-447E-8B6D-BBCEE20C4E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {468DB17A-A882-4CA6-A3F8-B660C5625280}
+	EndGlobalSection
+EndGlobal
