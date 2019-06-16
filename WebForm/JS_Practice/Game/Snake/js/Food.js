@@ -20,7 +20,7 @@
         this.color = color || "green";
     };
 
-    //讓食物由區域變數提升為全域變數
+    //讓食物構造函數由區域變數提升為全域變數
     window.Food = Food;
 
     /**
@@ -44,9 +44,11 @@
 
     //刪除創建的食物
     function remove() {
-        for (var i = 0; i < elements.length; i++) {
-            var ele = Element[i];
-            ele.parentNode().removeChild(ele);
+        var i = elements.length - 1;
+        for (; i >= 0; i--) {
+            var ele = elements[i];
+            ele.parentNode.removeChild(ele);
+            elements.splice(i, 1);
         }
     }
 })();

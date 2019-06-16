@@ -20,10 +20,12 @@
     <form id="form1" runat="server">
         <div class="map"></div>
         <script src="js/Food.js"></script>
+        <script src="js/Snake.js"></script>
+        <script src="js/Game.js"></script>
     </form>
     <script>
-        var fd = new Food();
-        fd.Init(document.querySelector(".map"));
+        var gm = new Game(document.querySelector(".map"));
+        gm.Init();
     </script>
 </body>
 </html>
